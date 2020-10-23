@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Search</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <style>
+            #searchbar
+            {
+                height: 38px;
+                width: 450px;
+                border-radius: 15px;
+                border:solid 1px #D3D3D3;
+                outline: none;
+            }
+            #searchbutton
+            {
+                margin-top: 5px;
+                margin-left: 85px;
+            }
+            #Imluckybutton
+            {
+                margin-top: 5px;
+                margin-left: 10px;
+            }
+            .form
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .link
+            {
+                text-align: end;
+            }
+            img
+            {
+                display: block;
+                height: 160px;
+                width: 350px;
+                margin: auto;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class ="link">
+            <a class="btn btn-outline-secondary" href="imgsearch.html" role="button">Google Images</a>
+            <a class="btn btn-outline-secondary" href="advsearch.html" role="button">Google Advanced Search</a>
+        </div>
+        <br><br><br><br>
+
+        <img src = "Google.gif" alt="Google Logo">
+            
+        <div class = "form">
+            <form action = "https://google.com/search">
+                <input id = "searchbar" type = "text" name = "q"><br><br>
+                <input id = "searchbutton" type="submit" class="btn btn-light"  value = "Google Search">
+                <button id = "Imluckybutton" type="submit" name = "btnI" class="btn btn-light">I'm Feeling Lucky</button>
+            </form>
+        </div>
+
+    </body>
+</html>
