@@ -1,9 +1,9 @@
 body {
-    margin-top: 60px;
+    margin-top: 61px;
     background-color:lightblue;
 }
 
 .carousel-inner {
-    width: 100%;
+    width: 105%;
     max-height: 400px !important;
 }
